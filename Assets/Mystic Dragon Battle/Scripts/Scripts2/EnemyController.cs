@@ -27,7 +27,7 @@ public class EnemyController : MonoBehaviour
         if (health <= 0)
         {
             health = 0;
-            player.GetComponent<PlayerController>().AddScore(scoreValue);
+            player.GetComponent<PlayerControl>().AddScore(scoreValue);
             Instantiate(gameObject, transform.position + new Vector3(5f, 5f, 0f), Quaternion.identity);
             Destroy(gameObject);
         }
@@ -38,7 +38,7 @@ public class EnemyController : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             // Player takes damage
-            collision.gameObject.GetComponent<PlayerController>().TakeDamage(damage);
+            collision.gameObject.GetComponent<PlayerControl>().TakeDamage(damage);
         }
     }
 }
