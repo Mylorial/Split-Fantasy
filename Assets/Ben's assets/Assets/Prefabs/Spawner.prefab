@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7575647339983173687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7575647339983173685}
+  - component: {fileID: 7575647339983173686}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7575647339983173685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7575647339983173687}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.67, y: -0.9438322, z: 5.63}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7575647339983173686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7575647339983173687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6448a259611adf459e6db1f674547f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - prefab: {fileID: 9213372700181466869, guid: ad8a7be7b17e3304e8e91a5f60dbbf26, type: 3}
+    spawnChance: 0.106
+  - prefab: {fileID: 4157653968237895177, guid: 5bb707c40c7ed95499e10e96c9d3a884, type: 3}
+    spawnChance: 0.112
+  - prefab: {fileID: 4628091262354238872, guid: 3f58971a3ce3d1e4bbcb5ff170b60ae7, type: 3}
+    spawnChance: 0.107
+  - prefab: {fileID: 4397723439425734350, guid: bb3e724e932d06f498676ca35e96cb6b, type: 3}
+    spawnChance: 0.132
+  - prefab: {fileID: 2450372676545082132, guid: 5b5ef9e2e2ee8b143893fc0397d4cae6, type: 3}
+    spawnChance: 0.122
+  - prefab: {fileID: 7733454918415375463, guid: 4c9fce9c1ad55ff439fcd447d1ff2de8, type: 3}
+    spawnChance: 0.15
+  minSpawnRate: 1
+  maxSpawnRate: 6
