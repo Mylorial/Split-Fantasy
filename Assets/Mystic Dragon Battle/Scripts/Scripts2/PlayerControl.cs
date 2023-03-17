@@ -95,6 +95,6 @@ public class PlayerControl : MonoBehaviour
     private void RestartGame()
     {
         // Load the specified next scene
-        UnityEngine.SceneManagement.SceneManager.LoadScene(nextSceneName);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Kings Crown");
     }
 }
