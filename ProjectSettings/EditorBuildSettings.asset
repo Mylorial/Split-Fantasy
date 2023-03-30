@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Mystic Dragon Battle/Scenes/end.unity
     guid: c950e678c98a3a84190ccbc610bc7569
   - enabled: 1
     path: Assets/Mystic Dragon Battle/Scenes/Mystic Dragon Battle.unity
     guid: 36fa1f53be573434782a7d71249ceabc
+  - enabled: 1
+    path: Assets/Ben's assets/Kings Crown.unity
+    guid: 385b29a0d1d60564e90a14f8e49e02e7
   m_configObjects: {}
