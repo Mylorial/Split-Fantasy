@@ -1,0 +1,4 @@
+diff a/Assets/Ben's assets/Library/LibraryFormatVersion.txt b/Assets/Ben's assets/Library/LibraryFormatVersion.txt	(rejected hunks)
+@@ -0,0 +1,2 @@
++unityRebuildLibraryVersion: 11
++unityForwardCompatibleVersion: 40
