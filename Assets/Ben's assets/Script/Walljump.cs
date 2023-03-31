@@ -16,7 +16,7 @@ public class Walljump : MonoBehaviour
     private float wallJumpingDirection;
     private float wallJumpingTime = 0.2f;
     private float wallJumpingCounter;
-    private float wallJumpingDuration = 0.2f;
+    private float wallJumpingDuration = 0.25f;
     private Vector2 wallJumpingPower = new Vector2(5f, 5f);
 
     [SerializeField] private Rigidbody2D rb;
