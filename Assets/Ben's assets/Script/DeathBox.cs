@@ -1,17 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DeathBox : MonoBehaviour
 {
+GameObject player;
     private void OnTriggerEnter(Collider other)
     {
-        // Check if the object that entered the DeathBox has a Health component
-        Health health = other.gameObject.GetComponent<Health>();
-        if (health != null)
+        if (player.gameObject.CompareTag("Player"))
         {
-            // If the object has a Health component, decrease its health to 0
-        
-        }
+            // Reload the current scene
+            Scene currentScene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(currentScene.buildIndex);
+    }
     }
 }
