@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Wall
   - Background
+  - Bullet
+  - Enemy
+  - Obsticle
+  - gameOver
+  - DeathBox
   layers:
   - Default
   - TransparentFX

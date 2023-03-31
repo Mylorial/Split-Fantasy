@@ -127,4 +127,6 @@ public class Walljump : MonoBehaviour
             transform.localScale = localScale;
         }
     }
+
+
 }
