@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Mystic Dragon Battle/Scenes/Mystic Dragon Battle.unity
     guid: 36fa1f53be573434782a7d71249ceabc
   - enabled: 1
-    path: Assets/Ben's assets/Kings Crown.unity
+    path: Assets/Scenes/Kings Crown.unity
     guid: 385b29a0d1d60564e90a14f8e49e02e7
   m_configObjects: {}
