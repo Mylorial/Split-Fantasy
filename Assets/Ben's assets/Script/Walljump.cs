@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Walljump : MonoBehaviour
 {
+
     private float horizontal;
     private float speed = 5f;
     private float jumpingPower = 8f;
